@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicoWebMVC", "MusicoWebMVC\MusicoWebMVC.csproj", "{860D390D-FB13-44D9-8DFE-38E67E0AFBA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{17E5C17A-74BA-49A5-A1A5-1589D55F6F23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C426552F-291A-4056-9C8B-9ED49F2B8EED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3142824-4E36-4673-A81E-C69AF36AAFF5}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{47470E3F-7E2D-4D6F-8781-8ED9B3760A33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterFunction", "CounterFunction\CounterFunction.csproj", "{EB748185-4B7C-4CBA-8FAA-4C25C057FC99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{860D390D-FB13-44D9-8DFE-38E67E0AFBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860D390D-FB13-44D9-8DFE-38E67E0AFBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860D390D-FB13-44D9-8DFE-38E67E0AFBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860D390D-FB13-44D9-8DFE-38E67E0AFBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E5C17A-74BA-49A5-A1A5-1589D55F6F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E5C17A-74BA-49A5-A1A5-1589D55F6F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E5C17A-74BA-49A5-A1A5-1589D55F6F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E5C17A-74BA-49A5-A1A5-1589D55F6F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C426552F-291A-4056-9C8B-9ED49F2B8EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C426552F-291A-4056-9C8B-9ED49F2B8EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C426552F-291A-4056-9C8B-9ED49F2B8EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C426552F-291A-4056-9C8B-9ED49F2B8EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47470E3F-7E2D-4D6F-8781-8ED9B3760A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47470E3F-7E2D-4D6F-8781-8ED9B3760A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47470E3F-7E2D-4D6F-8781-8ED9B3760A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47470E3F-7E2D-4D6F-8781-8ED9B3760A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB748185-4B7C-4CBA-8FAA-4C25C057FC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB748185-4B7C-4CBA-8FAA-4C25C057FC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB748185-4B7C-4CBA-8FAA-4C25C057FC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB748185-4B7C-4CBA-8FAA-4C25C057FC99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82C221FD-DB37-49F5-8A99-CE36BF3F3DA5}
+	EndGlobalSection
+EndGlobal

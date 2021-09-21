@@ -1,0 +1,64 @@
+﻿@model Domain.Models.MusicoModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detailhes do perfil</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ImageUri)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ImageUri)
+        </dd>
+
+        <dd class="col-sm-12">
+            <img src="@Model.ImageUri" width="200" /> <br /><br />
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UltimoNome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UltimoNome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nascimento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nascimento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.QuantosInstrumentos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QuantosInstrumentos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PossuiBanda)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PossuiBanda)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Visualizacao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Visualizacao)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>
